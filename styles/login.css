@@ -1,0 +1,53 @@
+
+body{
+    background-image:url(../imagenes/Logo.png);
+    margin: 0;
+    text-align: center; 
+    background-size: 100vw;
+   
+}
+
+div{
+    text-align: center;
+    
+    
+}
+div button{
+    background-color:rgb(75, 71, 71);
+    color: white;
+    padding: 3%;
+    border-radius: 40px;
+    width: 30%;
+    font-size: 150%;
+    border: 3px solid rgba(218, 165, 32, 0.815);
+    cursor:pointer;
+    margin-top: 45vh;
+    text-align: center;
+    
+    
+    
+}
+
+@media  (min-width: 1024px) {
+    body{
+        background-image:url(../imagenes/Logo.png);
+        margin: 0;
+        text-align: center; 
+        
+    }
+    
+
+    div button{
+        background-color:rgb(75, 71, 71);
+        color: white;
+        padding: 20px;
+        border-radius: 25px;
+        width: 150px;
+        font-size: 120%;
+        border: 3px solid rgba(218, 165, 32, 0.815);
+        cursor:pointer;
+        margin-top: 10px;
+        
+        
+    }
+ }

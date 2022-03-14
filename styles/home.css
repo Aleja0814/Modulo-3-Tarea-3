@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=DM+Sans&family=Henny+Penny&family=Lora:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=DM+Sans&family=Henny+Penny&family=Lora:wght@500&display=swap');
+
+body{
+    background-image: url(../imagenes/fondo2.jpg);
+    margin: 0;
+    text-align: center;
+    display: flex;
+}
+
+#escudo{
+    width: 15vw;
+    height: 15vh;
+    border-radius: 20px;
+    border: 2px solid black;
+    position: absolute;
+    top:18vh;
+    left:43vw;
+    justify-content: center;   
+}
+
+#container{
+    background-color: rgb(176, 180, 111);
+    border: 2px solid black;
+    width: 50vw;
+    height: 50vh;
+    margin:auto;
+    margin-top: 25vh;
+    margin-bottom: 25vh;
+    border-radius: 30px;   
+}
+
+#personaje{
+    width: 21vw;
+    height: 21vh;
+    border-radius: 20px;
+    border: 2px solid black;
+    margin-top: 11vh;   
+}
+
+#name{
+    font-family: 'Lora', serif; 
+}
+
+#casa{
+    font-family: 'Henny Penny', cursive;
+}
+
+button{
+    background-color:rgb(75, 71, 71);
+    color: white;
+    padding: 1%;
+    border-radius: 25px;
+    width: 20%;
+    font-size: 100%;
+    border: 2px solid black;
+    cursor:pointer;
+    position: absolute;
+    bottom:23vh;
+    left:38vw; 
+}
+
+@media  (min-width: 1024px) {
+    body{
+        background-image: url(../imagenes/fondo2.jpg);
+        margin: 0;
+        text-align: center;
+        display: flex;
+    }
+    
+    #escudo{
+        width: 160px;
+        height: 160px;
+        border-radius: 20px;
+        border: 2px solid black;
+        position: absolute;
+        top:10px;
+        left:px;
+        justify-content: center;   
+    }
+    
+    #container{
+        background-color: rgb(176, 180, 111);
+        border: 2px solid black;
+        width: 500px;
+        height: 500px;
+        margin: auto;
+        margin-top: 80px;
+        margin-bottom: 100px;
+        border-radius: 30px;   
+    }
+    
+    #personaje{
+        width: 200px;
+        height: 200px;
+        border-radius: 20px;
+        border: 2px solid black;
+        margin-top: 130px;   
+    }
+    
+    #name{
+        font-family: 'Lora', serif; 
+    }
+    
+    #casa{
+        font-family: 'Henny Penny', cursive;
+    }
+    
+    button{
+        background-color:rgb(75, 71, 71);
+        color: white;
+        padding: 10px;
+        border-radius: 25px;
+        width: 160px;
+        font-size: 100%;
+        border: 2px solid black;
+        cursor:pointer;
+        position: absolute;
+        left:600px;
+        bottom:15px  
+    }
+}
